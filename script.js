@@ -160,6 +160,9 @@ document.addEventListener("keydown", (event) => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+    const yearEl = document.getElementById("copyright-year");
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
     lockHorizontalScroll();
     window.addEventListener("scroll", lockHorizontalScroll, { passive: true });
     window.addEventListener("resize", lockHorizontalScroll, { passive: true });
