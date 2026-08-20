@@ -146,6 +146,10 @@ window.addEventListener("click", (event) => {
     }
 });
 
+document.querySelectorAll(".modal-content").forEach((content) => {
+    content.addEventListener("click", (event) => event.stopPropagation());
+});
+
 document.addEventListener("keydown", (event) => {
     if (event.key !== "Escape") return;
 
