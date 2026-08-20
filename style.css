@@ -463,19 +463,6 @@ nav a.active::after {
     width: 100%;
 }
 
-/* Exhibit Layout */
-.gallery-section {
-    padding: 150px 10%;
-    background: var(--bg-secondary);
-}
-
-.exhibit-row {
-    display: flex;
-    align-items: center;
-    margin-bottom: 250px;
-    position: relative;
-}
-
 /* Masterpiece Divider */
 .masterpiece-divider {
     width: 100%;
